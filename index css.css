@@ -1,0 +1,43 @@
+/* Custom CSS for dynamic colors */
+body {
+  background-color: pink;
+  color: black;
+}
+
+.navbar {
+  background-color: black;
+}
+
+.navbar-brand {
+  color: pink;
+}
+
+.jumbotron {
+  background-color: black;
+  color: pink;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.btn-primary {
+  background-color: pink;
+  border-color: pink;
+  color: black;
+}
+
+.btn-primary:hover {
+  background-color: black;
+  color: pink;
+}
+
+.card {
+  background-color: pink;
+  color: black;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .jumbotron {
+    padding: 10px;
+  }
+}
